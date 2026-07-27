@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>视差滚动效果</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* 让body和html元素和当前可视区一样大 */
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    section[class^="section"] {
+      width: 100%;
+      height: 100%;
+    }
+
+    .section1 {
+      background: url(./img/1.png) no-repeat fixed center center/cover;
+    }
+
+    .section2 {
+      background: url(./img/2.png) no-repeat fixed center center/cover;
+    }
+
+    .section3 {
+      background: url(./img/3.png) no-repeat fixed center center/cover;
+    }
+
+    .section4 {
+      background: url(./img/4.png) no-repeat fixed center center/cover;
+    }
+
+    .content {
+      width: 100%;
+      height: 25%;
+      background-color: rgba(0, 0, 0, 0.9);
+      color: #fff;
+      line-height: 30px;
+      font-size: 16px;
+      padding: 25px;
+    }
+
+    section[class^="section"] h2 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 60px;
+      margin-top: 200px;
+      letter-spacing: 10px;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 第一屏 -->
+  <section class="section1">
+    <div class="content">
+      <p> 广播信号传输就绪…接入频段</p>
+      <p>♦西区频段 死恋电台♦</p>
+      <p>「第七艺术的年度盛宴！」</p>
+      <p>「于世界中心，呼唤你！」</p>
+      <p>「飞跃狄斯卡——年度最佳，花落谁家？」</p>
+    </div>
+    <h2>飞跃狄斯卡</h2>
+  </section>
+  <!-- 第二屏 -->
+  <section class="section2">
+    <div class="content">
+      <p> ▶广播信号传输就绪…接入频段 </p>
+      <p>♦西区频段 死恋电台♦ </p>
+      <p>「奢华的美食，极致的享受！」 </p>
+      <p>「诚挚邀请您前来奥喆亚别馆！」</p>
+      <p>「无餍之宴——欢迎来到，属于纵情者的盛宴……」</p>
+    </div>
+    <h2>无餍之宴</h2>
+  </section>
+  <!-- 第三屏 -->
+  <section class="section3">
+    <div class="content">
+      <p> 广播信号传输就绪…接入频段</p>
+      <p>♦西区频段 死恋电台♦</p>
+      <p>「利益交换 权势错综」</p>
+      <p>「黑白纠缠 氤氲不明」</p>
+      <p>「暗流湍涌 交织难息」
+      </p>
+    </div>
+    <h2>悬城篇·暗涌</h2>
+  </section>
+  <!-- 第四屏 -->
+  <section class="section4">
+    <div class="content">
+      <p> ■核心危机：残锋</p>
+      <p>“你总是畏惧战争，想要逃离。</p>
+      <p>但它一直在，从未远去。
+      </p>
+      <p>似曾相识，循环往复，永不止歇。
+      </p>
+      <p>那就让它来，打倒我，击溃我，无数次杀死我。
+
+      </p>
+      <p>然后它会看到一个亡灵一次次起身，向它举剑，战斗至死。
+      </p>
+      <p>直到换时代重生！”
+      </p>
+    </div>
+    <h2>悬城篇·残锋</h2>
+  </section>
+</body>
+
+</html>
